@@ -15,3 +15,9 @@ void setNama(mahasiswa &a, string pNama)
     a.nama = pNama;
 }
 
+int mian()
+{
+    mahasiswa joko;
+    setNama(joko, "Kairi Kumar");
+    return 0;
+}
